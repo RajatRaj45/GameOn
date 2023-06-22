@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmenulist"
+    tools:context=".sportselection">
+
+    <Button
+        android:id="@+id/cric"
+        android:layout_width="319dp"
+        android:layout_height="140dp"
+        android:background="@drawable/buttonround"
+        android:onClick="cricketbutton"
+        android:text="CRICKET"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <Button
+        android:id="@+id/foot"
+        android:layout_width="321dp"
+        android:layout_height="155dp"
+        android:onClick="footballbutton"
+        android:text="FOOTBALL"
+        android:alpha="0"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308" />
+
+    <Button
+        android:id="@+id/badm"
+        android:layout_width="306dp"
+        android:layout_height="146dp"
+        android:onClick="badmintonbutton"
+        android:text="BADMINTON"
+        android:alpha="0"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591" />
+
+    <Button
+        android:id="@+id/tenn"
+        android:layout_width="307dp"
+        android:layout_height="165dp"
+        android:onClick="tennisbutton"
+        android:text="TENNIS"
+        android:alpha="0"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+</androidx.constraintlayout.widget.ConstraintLayout>
